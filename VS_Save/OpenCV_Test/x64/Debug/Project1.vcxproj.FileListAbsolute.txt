@@ -1,0 +1,6 @@
+C:\Users\82302\source\repos\Project1\x64\Debug\Project1.exe
+C:\Users\82302\source\repos\Project1\x64\Debug\Project1.pdb
+E:\VS_Save\Project1\x64\Debug\Project1.exe
+E:\VS_Save\Project1\x64\Debug\Project1.pdb
+E:\VS_Save\OpenCV_Test\x64\Debug\OpenCv_Test.exe
+E:\VS_Save\OpenCV_Test\x64\Debug\OpenCv_Test.pdb

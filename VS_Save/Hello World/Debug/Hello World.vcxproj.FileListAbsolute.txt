@@ -1,0 +1,2 @@
+E:\VS_Save\Hello World\Debug\Hello World.exe
+E:\VS_Save\Hello World\Debug\Hello World.pdb
