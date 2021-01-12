@@ -1,2 +1,4 @@
 E:\VS_Save\Hello World\Debug\Hello World.exe
 E:\VS_Save\Hello World\Debug\Hello World.pdb
+E:\MyGit\Qt_OpenCV_CPP_Learn\VS_Save\Hello World\Debug\Hello World.exe
+E:\MyGit\Qt_OpenCV_CPP_Learn\VS_Save\Hello World\Debug\Hello World.pdb

@@ -40,7 +40,7 @@ int main()
     cin >> old;
     if(old<30)
     {
-        cout << "yong guy uh?" << "go strong";
+        cout << "yong guy uh?\n" << "to be strong\n";
     }
     //上边是用来测试标准输入和条件语句的
     
