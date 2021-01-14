@@ -16,19 +16,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    login_success_page.cpp \
     main.cpp \
-    register_page.cpp \
     widget.cpp
 
 HEADERS += \
-    login_success_page.h \
-    register_page.h \
     widget.h
 
 FORMS += \
-    login_success_page.ui \
-    register_page.ui \
     widget.ui
 
 # Default rules for deployment.

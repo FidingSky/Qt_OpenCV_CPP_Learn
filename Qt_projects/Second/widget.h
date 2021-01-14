@@ -16,9 +16,7 @@ public:
     ~Widget();
 
 private slots:
-    void on_QQregister_clicked();
-
-    void on_QQlogin_clicked();
+    void on_pushButton_clicked();
 
 private:
     Ui::Widget *ui;
