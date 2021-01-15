@@ -17,4 +17,5 @@ void login_success_page::on_pushButton_clicked()
 {
     Widget *wd = new Widget;
     wd->show();
+    this->close();
 }

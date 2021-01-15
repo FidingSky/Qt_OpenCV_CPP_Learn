@@ -19,9 +19,10 @@ void Widget::on_QQregister_clicked()//这个玩意叫槽函数，是通过在ui�
 {
     //qDebug("fuck,register");//这句话是用来在调试框显示信息的，现在给注释掉了
 
-    register_page *rg = new register_page;//创建类
+    register_page *rg = new register_page;//创建指针类，其实也可以用普通类，然后用.函数()的形式调用
     rg->setGeometry(this->geometry());//保证窗口大小不变的
     rg->show();
+    this->close();
 }
 
 void Widget::on_QQlogin_clicked()//点击登录的时候
@@ -33,5 +34,6 @@ void Widget::on_QQlogin_clicked()//点击登录的时候
     {
     login_success_page *lg = new login_success_page;
     lg->show();
+    this->close();
     }
 }
