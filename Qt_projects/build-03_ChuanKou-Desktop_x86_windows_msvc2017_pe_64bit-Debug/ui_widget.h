@@ -113,8 +113,6 @@ public:
         tingzhiwei->addItem(QString());
         tingzhiwei->addItem(QString());
         tingzhiwei->addItem(QString());
-        tingzhiwei->addItem(QString());
-        tingzhiwei->addItem(QString());
         tingzhiwei->setObjectName(QString::fromUtf8("tingzhiwei"));
 
         gridLayout->addWidget(tingzhiwei, 3, 1, 1, 1);
@@ -208,17 +206,15 @@ public:
         botelv->setItemText(2, QApplication::translate("Widget", "115200", nullptr));
 
         label_3->setText(QApplication::translate("Widget", "\346\225\260\346\215\256\344\275\215", nullptr));
-        shujuwei->setItemText(0, QApplication::translate("Widget", "8", nullptr));
-        shujuwei->setItemText(1, QApplication::translate("Widget", "4", nullptr));
-        shujuwei->setItemText(2, QApplication::translate("Widget", "2", nullptr));
-        shujuwei->setItemText(3, QApplication::translate("Widget", "1", nullptr));
+        shujuwei->setItemText(0, QApplication::translate("Widget", "5", nullptr));
+        shujuwei->setItemText(1, QApplication::translate("Widget", "6", nullptr));
+        shujuwei->setItemText(2, QApplication::translate("Widget", "7", nullptr));
+        shujuwei->setItemText(3, QApplication::translate("Widget", "8", nullptr));
 
         label_4->setText(QApplication::translate("Widget", "\345\201\234\346\255\242\344\275\215", nullptr));
-        tingzhiwei->setItemText(0, QApplication::translate("Widget", "8", nullptr));
-        tingzhiwei->setItemText(1, QApplication::translate("Widget", "4", nullptr));
-        tingzhiwei->setItemText(2, QApplication::translate("Widget", "3", nullptr));
-        tingzhiwei->setItemText(3, QApplication::translate("Widget", "2", nullptr));
-        tingzhiwei->setItemText(4, QApplication::translate("Widget", "1", nullptr));
+        tingzhiwei->setItemText(0, QApplication::translate("Widget", "1", nullptr));
+        tingzhiwei->setItemText(1, QApplication::translate("Widget", "1.5", nullptr));
+        tingzhiwei->setItemText(2, QApplication::translate("Widget", "2", nullptr));
 
         label_5->setText(QApplication::translate("Widget", "\346\240\241\351\252\214\344\275\215", nullptr));
         jiaoyanwei->setItemText(0, QApplication::translate("Widget", "\346\262\241\346\234\211\346\240\241\351\252\214", nullptr));
