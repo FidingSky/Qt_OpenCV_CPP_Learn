@@ -78,7 +78,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="register_button_in_register_page">
          <property name="text">
           <string>注册</string>
          </property>

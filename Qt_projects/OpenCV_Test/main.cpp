@@ -1,9 +1,8 @@
 #include "widget.h"
 #include <iostream>
 #include <QApplication>
-//#include "opencv.hpp"
-//#include "opencv_modules.hpp"
-//using namespace cv;
+#include "opencv.hpp"
+using namespace cv;
 int main(int argc, char *argv[])
 {
 

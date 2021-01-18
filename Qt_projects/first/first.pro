@@ -19,16 +19,19 @@ SOURCES += \
     login_success_page.cpp \
     main.cpp \
     register_page.cpp \
+    register_success.cpp \
     widget.cpp
 
 HEADERS += \
     login_success_page.h \
     register_page.h \
+    register_success.h \
     widget.h
 
 FORMS += \
     login_success_page.ui \
     register_page.ui \
+    register_success.ui \
     widget.ui
 
 # Default rules for deployment.

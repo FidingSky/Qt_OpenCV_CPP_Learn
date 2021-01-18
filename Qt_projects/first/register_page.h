@@ -18,6 +18,8 @@ public:
 private slots:
     void on_pushButton_2_clicked();
 
+    void on_register_button_in_register_page_clicked();
+
 private:
     Ui::register_page *ui;
 };
