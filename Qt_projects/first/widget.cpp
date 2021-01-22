@@ -30,7 +30,7 @@ void Widget::on_QQlogin_clicked()//点击登录的时候
     QString userName = ui->QQuserid->text();
     QString passwd = ui->QQpassword->text();
 
-    if(userName=="123"&&passwd=="123")//id和密码都是123时才跳转
+    if(userName=="123"&&passwd=="456")//id和密码都是123时才跳转
     {
     login_success_page *lg = new login_success_page;
     lg->show();
