@@ -2,11 +2,22 @@
 #include "ui_register_page.h"
 #include "widget.h"//注意这个地方是手动添加的，如果想要和widget页面进行联系的话（调用该页面的类）
 #include "register_success.h"//同上
+
+#include<QDesktopWidget>
+#include<QStyle>
+#include<QRect>//用来自动获取屏幕大小相关的头文件
 register_page::register_page(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::register_page)
 {
     ui->setupUi(this);
+    //下边这几句是用来自动获取屏幕大小并且使窗口这么大的
+        QDesktopWidget *desktopWidget=QApplication::desktop();
+        QRect deskReck = desktopWidget->availableGeometry();
+        int appH = deskReck.height();
+        int appW = deskReck.width();
+        this->setFixedSize(appW,appH);
+        setGeometry(0,0,appW,appH);
 }
 
 register_page::~register_page()

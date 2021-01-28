@@ -36,7 +36,7 @@ public:
     QLabel *label_2;
     QLineEdit *lineEdit_2;
     QHBoxLayout *horizontalLayout_3;
-    QPushButton *pushButton;
+    QPushButton *register_button_in_register_page;
     QPushButton *pushButton_2;
     QSpacerItem *horizontalSpacer_2;
     QSpacerItem *verticalSpacer_2;
@@ -93,10 +93,10 @@ public:
 
         horizontalLayout_3 = new QHBoxLayout();
         horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
-        pushButton = new QPushButton(register_page);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
+        register_button_in_register_page = new QPushButton(register_page);
+        register_button_in_register_page->setObjectName(QString::fromUtf8("register_button_in_register_page"));
 
-        horizontalLayout_3->addWidget(pushButton);
+        horizontalLayout_3->addWidget(register_button_in_register_page);
 
         pushButton_2 = new QPushButton(register_page);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
@@ -128,7 +128,7 @@ public:
         register_page->setWindowTitle(QApplication::translate("register_page", "Form", nullptr));
         label->setText(QApplication::translate("register_page", "\344\275\240\347\232\204\350\264\246\345\217\267\357\274\232", nullptr));
         label_2->setText(QApplication::translate("register_page", "\344\275\240\347\232\204\345\257\206\347\240\201\357\274\232", nullptr));
-        pushButton->setText(QApplication::translate("register_page", "\346\263\250\345\206\214", nullptr));
+        register_button_in_register_page->setText(QApplication::translate("register_page", "\346\263\250\345\206\214", nullptr));
         pushButton_2->setText(QApplication::translate("register_page", "\345\217\226\346\266\210", nullptr));
     } // retranslateUi
 
