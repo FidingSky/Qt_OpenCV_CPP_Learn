@@ -1,0 +1,2 @@
+E:\MyGit\Qt_OpenCV_CPP_Learn\VS_Save\C++Test\Debug\C++Test.exe
+E:\MyGit\Qt_OpenCV_CPP_Learn\VS_Save\C++Test\Debug\C++Test.pdb
